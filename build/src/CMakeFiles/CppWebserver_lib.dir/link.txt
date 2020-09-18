@@ -1,0 +1,2 @@
+C:\development\tools\mingw64\bin\ar.exe qc libCppWebserver_lib.a CMakeFiles/CppWebserver_lib.dir/IterativeServerTCP.cpp.obj CMakeFiles/CppWebserver_lib.dir/Sender.cpp.obj
+C:\development\tools\mingw64\bin\ranlib.exe libCppWebserver_lib.a

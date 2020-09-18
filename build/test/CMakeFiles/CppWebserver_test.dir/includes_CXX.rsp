@@ -1,0 +1,1 @@
+-IC:/development/projects/cppWebserver/src -isystem C:/development/projects/cppWebserver/lib/googletest/googletest/include -isystem C:/development/projects/cppWebserver/lib/googletest/googletest
