@@ -24,8 +24,6 @@ if(POLICY CMP0074)
   cmake_policy(SET CMP0074 NEW)
 endif()
 
-include(CheckIncludeFiles)
-
 find_package(GTest)
 if(GTEST_FOUND)
 set(Gtest_FOUND TRUE)
@@ -44,9 +42,9 @@ if(COMPILE_TYPE STREQUAL "SHARED")
 endif()
 
 add_library(restclient-cpp
-  source/restclient.cc
-  source/connection.cc
-  source/helpers.cc
+  src/restclient.cpp
+  src/connection.cpp
+  src/helpers.cpp
 )
 set_property(TARGET restclient-cpp PROPERTY SOVERSION 2.1.1)
 
