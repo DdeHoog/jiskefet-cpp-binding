@@ -1,2 +1,2 @@
-# cppWebserver
-A simple C++ webserver
+# cppRestServer
+C++ Restserver 
